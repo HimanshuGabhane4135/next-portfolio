@@ -25,7 +25,7 @@ export default function Hero({ }: Props) {
       <Image
         className="relative rounded-full h-32 w-32 object-cover mt-32 mb-8"
         src={profilePic}
-        alt=""
+        alt="Himanshu's Profile Pic"
       />
       <div className="z-20">
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
