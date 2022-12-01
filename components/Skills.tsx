@@ -14,18 +14,18 @@ export default function Skills({ }: Props) {
             <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">Skills</h3>
             <h3 className="absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm">Hover over a skill for profieciency</h3>
             <div className="grid grid-cols-4 gap-5 xl:mt-24 md:mt-20">
-                <Skill src="html.png" level={82} />
-                <Skill src="css.png" level={82} />
-                <Skill src="js.png" level={82} />
-                <Skill src="ts.png" level={82} />
-                <Skill src="git.png" level={82} />
-                <Skill src="mysql.png" level={82} />
-                <Skill src="mongodb.png" level={82} />
-                <Skill src="nextjs.png" level={82} />
-                <Skill src="reactjs.png" level={82} />
-                <Skill src="reactnative.png" level={82} />
-                <Skill src="sass.png" level={82} />
-                <Skill src="nodejs.png" level={82} />
+                <Skill src="html.svg" level={82} />
+                <Skill src="css.svg" level={82} />
+                <Skill src="js.svg" level={82} />
+                <Skill src="ts.svg" level={82} />
+                <Skill src="git.svg" level={82} />
+                <Skill src="mysql.svg" level={82} />
+                <Skill src="mongodb.svg" level={82} />
+                <Skill src="nextjs.svg" level={82} />
+                <Skill src="reactjs.svg" level={82} />
+                <Skill src="reactnative.svg" level={82} />
+                <Skill src="sass.svg" level={82} />
+                <Skill src="nodejs.svg" level={82} />
             </div>
         </motion.div>
     )

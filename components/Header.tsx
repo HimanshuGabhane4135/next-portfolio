@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 type Props = {};
 
-export default function Header({}: Props) {
+export default function Header({ }: Props) {
   return (
     <header className="sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center">
       <motion.div
@@ -25,26 +25,31 @@ export default function Header({}: Props) {
       >
         <SocialIcon
           url="https://www.facebook.com/himanshu.ghabhane/"
+          target="_blank"
           fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
           url="https://twitter.com/h_gabhane"
+          target="_blank"
           fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
           url="https://www.linkedin.com/in/himanshu-gabhane/"
+          target="_blank"
           fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
           url="https://www.instagram.com/_himanshu_gabhane_/"
+          target="_blank"
           fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
           url="https://github.com/HimanshuGabhane4135"
+          target="_blank"
           fgColor="gray"
           bgColor="transparent"
         />
