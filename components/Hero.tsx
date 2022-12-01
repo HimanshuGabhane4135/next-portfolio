@@ -7,7 +7,7 @@ import Link from "next/link";
 
 type Props = {};
 
-export default function Hero({}: Props) {
+export default function Hero({ }: Props) {
   const [text, count] = useTypewriter({
     words: [
       "Hello, The Name's Himanshu Gabhane",
@@ -20,10 +20,10 @@ export default function Hero({}: Props) {
     delaySpeed: 2000,
   });
   return (
-    <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
+    <div className="h-screen flex flex-col items-center justify-center text-center overflow-hidden">
       <BackgroundCircles />
       <Image
-        className="relative rounded-full h-32 w-32 object-cover"
+        className="relative rounded-full h-32 w-32 object-cover mt-32 mb-8"
         src={profilePic}
         alt=""
       />
