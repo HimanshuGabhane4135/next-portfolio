@@ -46,16 +46,16 @@ export default function ExperienceCard({ }: Props) {
                             <p className="font-bold text-2xl mt-1">Associate Technology Architect</p>
                             <div className="flex space-x-2 my-2">
                                 <img className="h-10 w-10 rounded-full"
-                                    src="reactnative.png"
+                                    src="reactnative.svg"
                                 />
                                 <img className="h-10 w-10 rounded-full"
-                                    src="reactjs.png"
+                                    src="reactjs.svg"
                                 />
                                 <img className="h-10 w-10 rounded-full"
-                                    src="nodejs.png"
+                                    src="nodejs.svg"
                                 />
                                 <img className="h-10 w-10 rounded-full"
-                                    src="mongodb.png"
+                                    src="mongodb.svg"
                                 />
                             </div>
                             <p className="uppercase py-5 text-gray-300">Started Working.... - Ended...</p>
