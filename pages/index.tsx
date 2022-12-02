@@ -18,45 +18,37 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {/* Header */}
       <Header />
 
-      {/* Hero */}
       <section id="hero" className="snap-start">
         <Hero />
       </section>
 
-      {/* About */}
       <section id="about" className="snap-center">
         <About />
       </section>
 
-      {/* Experience */}
       <section id="experience" className="snap-center">
         <WorkExperience />
       </section>
 
-      {/* Skills */}
       <section id="skills" className="snap-start">
         <Skills />
       </section>
 
-      {/* Projects */}
       <section id="projects" className="snap-start">
         <Projects />
       </section>
 
-      {/* Contact Me */}
       <section id="contact" className="snap-start">
         <ContactMe />
       </section>
 
-      {/* Footer */}
       <Link href="#hero">
         <footer className="sticky bottom-5 w-full cursor-pointer">
           <div className="flex items-center justify-center">
             <Image
-              className="h-10 rounded-full grayscale hover:grayscale-0 cursor-pointer animate-bounce"
+              className="h-10 rounded-full grayscale hover:grayscale-0 cursor-pointer animate-pulse"
               src="/globe.png"
               width="40"
               height="30"

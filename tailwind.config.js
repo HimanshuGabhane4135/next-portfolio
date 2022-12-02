@@ -5,7 +5,12 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        "xs": "375px",
+        "2xs": "280px"
+      },
+    },
   },
   plugins: [
     require('tailwind-scrollbar'),
