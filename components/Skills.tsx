@@ -26,6 +26,7 @@ export default function Skills({ }: Props) {
                 <Skill src="reactnative.svg" level={82} />
                 <Skill src="sass.svg" level={82} />
                 <Skill src="nodejs.svg" level={82} />
+                <Skill src="tailwindcss.svg" level={82} />
             </div>
         </motion.div>
     )
