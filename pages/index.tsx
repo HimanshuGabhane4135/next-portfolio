@@ -44,16 +44,17 @@ export default function Home() {
         <ContactMe />
       </section>
 
-      <Link href="#hero">
-        <footer className="sticky bottom-5 w-full cursor-pointer">
-          <div className="flex items-center justify-center">
+      <Link href="./resume/Resume.pdf" target="_blank">
+        <footer className="sticky bottom-5 float-right inline-block cursor-pointer">
+          <div className="flex justify-end mr-3 items-center rounded-full px-4 py-2 grayscale hover:grayscale-0 cursor-pointer animate-pulse bg-[#F7AB0A]">
             <Image
-              className="h-10 rounded-full grayscale hover:grayscale-0 cursor-pointer animate-pulse"
-              src="/globe.png"
-              width="40"
-              height="30"
+              className="h-5 w-5 "
+              src="/download.svg"
+              width="25"
+              height="25"
               alt="Footer image"
             />
+            <h3 className="ml-2 text-black">Resume</h3>
           </div>
         </footer>
       </Link>
