@@ -29,7 +29,7 @@ export default function About({ }: Props) {
       />
       <div className="space-y-10 px-0 md:px-10">
         <h4 className="text-4xl font-semibold">Here is a <span className="underline decoration-[#F7AB0A]/50">little</span> background</h4>
-        <p className="text-base">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, perferendis cumque! Voluptatum qui et nisi dolores quidem quos quasi veritatis. Cupiditate sapiente quo ullam! Velit libero corporis minus eum illo. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, quo saepe! Deleniti consectetur doloribus cupiditate. Pariatur quos reprehenderit saepe fugiat enim dolores error dolor et ullam voluptates est, doloremque atque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores mollitia quod cum inventore laudantium vero quasi eius beatae dicta atque ducimus fugiat doloribus, velit ipsa neque nam nihil et explicabo?</p>
+        <p className="text-base text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, perferendis cumque! Voluptatum qui et nisi dolores quidem quos quasi veritatis. Cupiditate sapiente quo ullam! Velit libero corporis minus eum illo. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, quo saepe! Deleniti consectetur doloribus cupiditate. Pariatur quos reprehenderit saepe fugiat enim dolores error dolor et ullam voluptates est, doloremque atque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores mollitia quod cum inventore laudantium vero quasi eius beatae dicta atque ducimus fugiat doloribus, velit ipsa neque nam nihil et explicabo?</p>
       </div>
     </motion.div>
   );
